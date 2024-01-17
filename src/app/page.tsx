@@ -1,10 +1,15 @@
-import Image from 'next/image'
+import Hero from "@/components/Hero/page";
+import Product from "@/components/Home/Product";
+import Navbar from "@/components/Layout/Navbar";
+
+ 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     
-     
+    <main className=" ">
+      <Navbar />
+      <Hero /> 
+      <Product />
     </main>
   )
 }
